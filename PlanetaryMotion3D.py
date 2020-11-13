@@ -1,5 +1,13 @@
 from vpython import *
 import numpy as np
+
+'''
+To Do:
+
+Fix phi rotations so that bodies can orbit slightly off plane (currently is a mess)
+'''
+
+
 '''
 Colors
 '''
@@ -154,7 +162,7 @@ theta_deg = {'sun': 0, 'mercury': 1, 'venus': 1,
              'jupiter': 1, 'saturn': 1, 'uranus': 1,
              'neptune': 1}
 phi_deg = {'sun': 0, 'mercury': 0, 'venus': 0,
-           'earth': 0, 'moon': 0, 'mars': 0,
+           'earth': 1, 'moon': 0, 'mars': 0,
            'jupiter': 0, 'saturn': 0, 'uranus': 0,
            'neptune': 0}
 d_theta = {'sun': 0, 'mercury': 0, 'venus': 0,
