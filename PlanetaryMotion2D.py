@@ -1,4 +1,5 @@
 from vpython import *
+
 '''
 Colors
 '''
